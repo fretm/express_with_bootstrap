@@ -1,0 +1,30 @@
+{
+  "name": "freproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fretm/express_with_bootstrap.git"
+  },
+  "author": "fre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fretm/express_with_bootstrap/issues"
+  },
+  "homepage": "https://github.com/fretm/express_with_bootstrap#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "i": "^0.3.6",
+    "moment": "^2.24.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
