@@ -33,7 +33,8 @@ router.get("/:id", (req, res) => {
         })
     }
     members.push(newmembers)
-    res.json(members)
+    //res.json(members)
+    res.redirect('/')
   }),
 
 
