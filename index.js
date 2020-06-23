@@ -31,7 +31,7 @@ app.use(express.static(path.join(__dirname, "public")));
 //member api routes 
 app.use('/api/members',require('./route/members'))
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000; // port number
 
 app.listen(PORT, () => console.log(`server running on part ${PORT}`));
   
